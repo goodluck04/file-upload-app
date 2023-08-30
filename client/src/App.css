@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: black;
+  /* vh - view port height */
+  height: 100vh;
+  /* overflow will hide the scroller make it static one page  */
+  overflow: hidden; 
+  /* flex  will dislay all its child in columns not in bottom column */
+  display: flex;
+}
+
+img {
+
+  width: 30%;
+
+}
+
+/* right side */
+.wrapper {
+  background-color: #fff;
+  width: 600px;
+  height: 400px;
+  /* give margin auto will centre align the wrapper */
+  margin: auto;
+  /* if you want item-align then you have to use flex coz its flex property */
+  display: flex;
+  /* align item will centre the item in row by default */
+  align-items: center;
+  /* to make col wise center use flex direction */
+  flex-direction: column;
+
+}
+
+/* h1 */
+h1 {
+  font-size: 40px;
+  color: #445a5a6f;
+  /* top and bottom:left right  */
+  margin: 40px 0;
+}
+
+/* button */
+button {
+  width: 150px;
+  height: 40px;
+  /*  round the corner of button use border radius */
+  border-radius: 5px;
+  background-color: #445a5a6f;
+  border: 1px solid #445a5a6f;
+  /* text color */
+  color: #ffffff;
+  /*  text size */
+  font-size: 20px; 
+  /* give space from top and bottom 30px and left and right -0 using marign  */
+  margin: 30px 0;
+
+}
+
